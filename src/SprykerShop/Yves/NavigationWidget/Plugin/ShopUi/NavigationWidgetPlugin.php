@@ -5,14 +5,12 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace SprykerShop\Yves\NavigationWidget\Plugin\ShopLayout;
+namespace SprykerShop\Yves\NavigationWidget\Plugin\ShopUi;
 
 use Spryker\Yves\Kernel\Widget\AbstractWidgetPlugin;
-use SprykerShop\Yves\ShopLayout\Dependency\Plugin\NavigationWidget\NavigationWidgetPluginInterface;
+use SprykerShop\Yves\ShopUi\Dependency\Plugin\NavigationWidget\NavigationWidgetPluginInterface;
 
 /**
- * Class NavigationWidgetPlugin
- *
  * @method \SprykerShop\Yves\NavigationWidget\NavigationWidgetFactory getFactory()
  */
 class NavigationWidgetPlugin extends AbstractWidgetPlugin implements NavigationWidgetPluginInterface
@@ -51,7 +49,7 @@ class NavigationWidgetPlugin extends AbstractWidgetPlugin implements NavigationW
      */
     public static function getTemplate(): string
     {
-        return '@NavigationWidget/_navigation/_main.twig';
+        return '@NavigationWidget/views/navigation/navigation.twig';
     }
 
     /**
