@@ -6,6 +6,8 @@ This module provides widget to show navigation links (shipment, payment, social 
 
 **DEPRECATED - This module is not continued at this point.**
 
+**Use "spryker-shop/content-navigation-widget" module instead.**
+
 ## Installation
 
 ```
