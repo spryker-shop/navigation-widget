@@ -4,6 +4,8 @@
 
 This module provides widget to show navigation links (shipment, payment, social links, other footer links, etc) in page header, footer and in other page sections.
 
+**DEPRECATED - This module is not continued at this point.**
+
 ## Installation
 
 ```
